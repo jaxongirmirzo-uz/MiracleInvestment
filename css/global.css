@@ -47,4 +47,98 @@ main {
   border-radius: 999px;
   margin-bottom: 15px;
 }
+
+#menuIcon {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .header__container {
+    flex-direction: column;
+  }
+  .header__btn {
+    width: 300px;
+  }
+  .section3__cards__container {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .section6__card__list {
+    flex-direction: column;
+  }
+  .section6__card {
+    max-width: 300px;
+  }
+  .section1__container {
+    flex-direction: column;
+  }
+  #footer {
+    font-size: 12px;
+  }
+  .footer__info__container {
+    gap: 20px;
+    flex-direction: column;
+  }
+  .footer__manbalar {
+    margin-bottom: 20px;
+  }
+  .havolalar__title {
+    text-align: center;
+  }
+  .footer__havolalar__list {
+    gap: 20px;
+  }
+  .footer__havolalar {
+    margin-top: 10px;
+  }
+  .footer__havolalar__container {
+    margin-bottom: 20px;
+  }
+  .havolalar__title2 {
+    text-align: center;
+  }
+  .footer__manbalar__list {
+    gap: 70px;
+  }
+
+  .btn__boshlash,
+  .btn__koproq__malumot {
+    width: 200px;
+    font-size: 12px;
+  }
+  .section1__buttons {
+    display: flex;
+  }
+  .footer__havolalar__container {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .footer__links__container {
+    margin-left: auto;
+  }
+  .footer__manbalar {
+    margin-bottom: 10px;
+  }
+}
+.footer__mini__info {
+  font-size: 16px;
+  margin-right: 50px;
+  margin-bottom: -50px;
+}
+.section3__btn {
+  margin-left: 70px;
+  width: 200px;
+  margin-bottom: -20px;
+}
+.section4__container {
+  flex-direction: column;
+  row-gap: 80px;
+}
+.menu__list__item {
+  font-size: 12px;
+}
 /* GLOBAL STYLE END*/

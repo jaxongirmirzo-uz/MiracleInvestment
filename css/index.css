@@ -4,6 +4,19 @@
   display: none;
 }
 
+.footer__links__container {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+  gap: 100px;
+}
+
+.footer__manbalar {
+  margin-bottom: 30px;
+}
+.footer__manbalar__container {
+  margin-top: 30px;
+}
 /* HEADER START */
 
 #header {
